@@ -209,7 +209,7 @@ button:hover {
   margin: 40px auto;
 }
 
-.loader:before {
+span.loader:before {
   content: "Loading...";
 }
 
@@ -217,4 +217,25 @@ button:hover {
   to {
     text-shadow: -5em 0 #FFF, 0 0 #FFF
   }
+}
+
+/* load more */
+
+.load-more {
+font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  background: #4e75ff;
+  margin: 32px auto 44px auto;
+}
+
+.load-more:hover {
+  background: #6c8cff;
 }
